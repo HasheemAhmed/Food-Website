@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fast Food</title>
+	<style>
+
+		/* --------- background --------------*/
+
+		*
+		{
+			margin: 0;
+			padding: 0;
+			text-decoration:none;
+		}
+		body
+		{
+			background-color:white ;
+		}
+
+		/* --------- sidebar --------------*/
+
+		.navbar
+		{
+			position: fixed;
+			top:0;
+			bottom: 0;
+			height: 100%;
+			background-color: #ffbe18;
+			padding-top: 10px;
+			border-right: 4px solid black;
+		}
+
+		img
+		{
+			width: 40px;
+			height: 40px;
+			
+		}
+		.sidebar
+		{
+			display: flex;
+			margin:20px;
+		}
+		.food
+		{
+			width: 40px;
+			height: 200px;
+			margin-bottom: 30px;
+		}
+		
+		/* --------- Topbar --------------*/
+
+		.topbar
+		{
+			height: 70px;
+			width: auto;
+			background-color: black;
+			border-bottom: 4px solid #ffbe18;
+			padding-left: 100px;
+			padding-top: 10px;
+			
+		}
+		.topbars
+		{
+			display: flex;
+			float: left;
+			text-decoration: none;
+			padding: 5px;
+			margin: 10px;
+			background-color: transparent;
+			width: 100px;
+			border-radius: 10px;
+		}
+		.topbars:hover
+		{
+			border: 4px solid #ffbe18;
+			background-color: #ffbe18;
+			color:black;
+
+		}
+		.text
+		{
+			color: #ffbe18;
+			font-family: sans-serif;
+			font-size: 20px;
+			font-weight: bold;
+			margin: auto;
+		}
+		.text:hover
+		{
+			color:black;
+		}
+		input
+		{
+			margin: 10px;
+			float: right;
+			height: 30px;
+			width: 500px;
+			border: none;
+			color: black;
+			font-family: sans-serif;
+			font-size: 20px;
+			border-radius: 5px;
+		}
+		
+		/* --------- bottom --------------*/
+
+		.bottom
+		{
+			border-top:4px solid #ffbe18;
+			padding-top: 20px;
+			background-color: rgba(0, 0, 0, 0.7);
+			height: 200px;
+			width: auto;
+		}
+		.bottomback
+		{
+			background-image: url(background/bottom.jpg);
+		}
+		.bottomtable
+		{
+			width: 50%;
+			margin: auto;
+			
+		}
+		.th
+		{
+			color: #ffbe18;
+			font-size: 30px;
+			font-weight: bold;
+		}
+		td
+		{
+			
+			background-color: transparent;
+			width: 200px;
+			height: 30px;
+			font-size: 20px;
+			font-weight: 10px;
+			font-family: sans-serif;
+			color: white;
+		}
+
+		/* --------- Boxes --------------*/
+		.back
+		{
+			width: auto;
+			height: 800px;
+			padding-left: 100px;
+			background-image: url(background/boxblack.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.fastfoodtext
+		{
+			text-align: center;
+			margin:auto;
+			border-bottom: 4px solid #ffbe18;
+			padding:20px ;
+			font-size: 40px;
+			font-weight: bolder;
+			font-family: sans-serif;
+			color:#ffbe18;
+			width: 200px;
+		}
+		.boxes
+		{
+			background-color: rgba(0, 0, 0, 0.7);
+			padding: 50px;
+			margin-top: 50px;
+			width: auto;
+			height: auto;
+			border-radius: 20px;
+			
+		}
+		.boxes img
+		{
+			width: 100%;
+			height: 600px;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- ------------------- Side Bar-------------------------- -->
+
+	<div class="navbar">
+		<ul>
+			<li class="sidebar">
+				<a href="#f">
+					<i class="logo">
+						<img src="icons\food.png" class="food" >
+					</i>
+				</a>
+			</li>
+			<li class="sidebar">
+				<a href="#fastfood">
+					<i class="fastfood">
+						<img src="icons\fast-food.png">
+					</i>
+				</a>
+			</li>
+			<li class="sidebar">
+				<a href="#cafe">
+					<i class="cafe">
+						<img src="icons\coffee.png">
+					</i>
+				</a>
+			</li>
+			<li class="sidebar">
+				<a href="#sweets">
+					<i class="sweet">
+						<img src="icons\cake.png">
+					</i>
+				</a>
+			</li>
+			<li class="sidebar">
+				<a href="#drinks">
+					<i class="drinks">
+						<img src="icons\drink.png">
+					</i>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<!-- ------------------- Top Bar-------------------------- -->
+
+	<div class="topbar">
+		<ul>
+			<li class="topbars">
+				<a href="home.html" class="text">Home</a>
+			</li>
+
+			<li class="topbars">
+				<a href="services.html" class="text">Services</a>
+			</li>
+
+			<li class="topbars">
+				<a href="#" class="text">Location</a>
+			</li>
+
+			<li class="topbars">
+				<a href="about.html" class="text">About Us</a>
+			</li>
+
+			<div class=ínput>
+				<input type="text" placeholder="Search">
+			</div>
+		</ul>
+	</div>
+
+	
+
+
+	<div class="back" id="drinks">
+		<div class="fastfoodtext">Location</div>
+		<div class="boxes">
+			<img src="background\location.jpg">
+		</div>
+	</div>
+
+	<!-- ------------------- bottom -------------------------- -->
+
+
+	<div class="bottomback">
+		<div class="bottom">
+			<div class="bottomtable">
+				<table>
+					<th>
+						<td class="th">Food</td>
+						<td class="th">Cafe</td>
+						<td class="th">Sweets</td>
+						<td class="th">Drinks</td>
+					</th>
+					<tr>
+						<td></td>
+						<td>Burger</td>
+						<td>Green Tea</td>
+						<td>Cake</td>
+						<td>Coke</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>Pizza</td>
+						<td>Cold Tea</td>
+						<td>Biscuits</td>
+						<td>Sprite</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>Shawarma</td>
+						<td>Coffee</td>
+						<td>Chocolates</td>
+						<td>Fanta</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>Chips</td>
+						<td>Tea</td>
+						<td>Desert</td>
+						<td>Juice</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

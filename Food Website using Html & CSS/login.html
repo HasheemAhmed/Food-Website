@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+	<style>
+		body
+		{
+			
+			background-image: url(background/background.png);
+			padding: 100px;
+			background-repeat:no-repeat;
+			background-size: cover;
+
+		}
+		.form-box
+		{
+			border: 2px solid #ffbe18;
+			width: 350px;
+			height: 500px;
+			margin: auto;
+			border-radius: 20px;
+			background-color: rgba(0, 0, 0, 0.9);
+		}
+		h1
+		{
+			text-align: center;
+			margin: 50px;
+			font-family: sans-serif;
+			color: floralwhite;
+		}
+		input
+		{
+			width: 250px;
+			height: 50px;
+			background-color: transparent;
+			border: none;
+			font-family: sans-serif;
+			color: white;
+			font-size: 15px;
+		}
+		.input-box
+		{
+			margin: 30px auto;
+			width: 250px;
+			height: 50px;
+			border-bottom: 4px solid #ffbe18;
+		}
+		.login
+		{
+			margin: auto;
+			width: 150px;
+			height: 30px;
+			background-color: white;
+			color: black;
+			border: none;
+			border-radius: 50px;
+			font-size: 17px;
+			text-align: center;
+			font-family: sans-serif;
+			font-weight: bold;
+			padding-top: 8px;
+		}
+		
+		.account
+		{
+			margin: 50px auto;
+			width: 250px;
+			height: 50px;
+			text-align: center;
+		}
+		h4
+		{
+			font-family: sans-serif;
+			color: white;
+			font-size: 15px;
+		}
+		.login a
+		{
+			color:black;
+			text-decoration: none;
+		}
+		.account a
+		{
+			color: #ffbe18;
+			text-decoration: none;
+		}
+		.login:hover
+		{
+			background-color: #ffbe18;
+		}
+	</style>
+</head>
+<body>
+	<div class="form-box">
+		<div><h1>Log In</h1></div>
+		<div class="input-box" ><input type="text" placeholder="E-Mail"></div>
+		<div class="input-box" ><input type="Password" placeholder="Password"></div>
+		<div class="login"><a href="home.html">Log In</a></div>
+		<div class="account"><h4>Don't have an account? <a href="signup.html">Sign up</a></h4></div>
+	</div>
+</body>
+</html>
