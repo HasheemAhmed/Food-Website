@@ -1,13 +1,10 @@
-
----
-
 # 🍽️ Food Website
 
 Welcome to the Food Website repository! This project is a simple, static website created using only HTML and CSS, designed to showcase a variety of delicious dishes.
 
 ## 📹 Video Demo
 
-A video walkthrough of the website is included in this repository. You can view the video to see the website in action: [Watch the Video](video.mp4) 
+A video walkthrough of the website is included in this repository. You can view the video to see the website in action: [Watch the Video](website.mp4) 
 ## 🚀 Features
 
 - Simple and clean design
